@@ -1,0 +1,23 @@
+Name,Size,Type,AC,HP,Speed,STR,DEX,CON,INT,WIS,CHA,STR Save,DEX Save,CON Save,INT Save,WIS Save,CHA Save,Weaknesses,Resistances,Immunities,CR
+Adult Red Dragon,Huge,Dragon,19,256,80,27,10,25,16,13,21,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,-,-,Fire,17.00
+Bandit,Medium,Humanoid,12,11,30,11,12,12,10,10,10,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,-,-,-,0.13
+Bandit Captain,Medium,Humanoid,15,65,30,15,16,14,14,11,14,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,-,-,-,2.00
+Brown Bear,Large,Beast,11,34,40,19,10,16,2,13,7,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,-,-,-,1.00
+Dire Wolf,Large,Beast,14,37,50,17,15,15,3,12,7,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,-,-,-,1.00
+Druid,Medium,Humanoid,11,27,30,10,12,13,12,15,11,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,-,-,-,2.00
+Ghost,Medium,Undead,11,45,40,7,13,10,10,12,17,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,-,"Acid, Fire, Lightning, Thunder, Nonmagical","Charmed, Cold, Frightened, Necrotic, Paralyzed, Petrified, Poison, Poisoned, Prone",4.00
+Ghoul,Medium,Undead,12,22,30,13,15,10,7,10,6,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,-,-,"Charmed, Poison, Poisoned",1.00
+"Giant, Hill",Huge,Giant,13,105,40,21,8,19,5,9,6,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,-,-,-,5.00
+Goblin,small,Humanoid,15,7,30,8,14,10,10,8,8,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,-,-,-,0.25
+Gray Ooze,Medium,Ooze,8,22,10,12,6,16,1,6,2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,-,"Acid, Cold, Fire","Blinded, Charmed, Frightened, Prone",0.50
+Kobold,Small,Humanoid,12,5,30,7,15,9,8,7,8,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,-,-,-,0.13
+Lich,Medium,Undead,17,135,30,11,16,16,20,14,16,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,-,"Cold, Lightning, Necrotic","Charmed, Frightened, Paralyzed, Poison, Poisoned",21.00
+Lizardfolk,Medium,Humanoid,15,22,30,15,10,13,7,12,7,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,-,-,-,0.50
+Mimic,Medium,Monstrosity,12,58,15,17,12,15,5,13,8,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,-,-,"Acid, Prone",2.00
+Ogre,Large,Giant,11,59,40,19,8,16,5,7,7,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,-,-,-,2.00
+Orc,Medium,Humanoid,13,15,30,16,12,16,7,11,10,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,-,-,-,0.50
+Orc War Chief,Medium,Humanoid,16,93,30,18,12,18,11,11,16,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,-,-,-,4.00
+Skeleton,Medium,Undead,13,13,30,10,14,15,6,8,5,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,Bludgeoning,-,"Poison, Poisoned",0.25
+Specter,Medium,Undead,12,22,50,1,14,11,10,10,11,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,-,"Acid, Cold, Fire, Lightning. Thunder, Nonmagical","Charmed, Necrotic, Paralyzed, Petrified, Poison, Poisoned, Prone",1.00
+Troll,Large,Giant,15,84,30,18,13,20,7,9,7,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,-,-,-,5.00
+Zombie,Medium,Undead,8,22,20,13,6,16,3,6,5,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,-,-,"Poison, Poisoned",0.25
