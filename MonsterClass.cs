@@ -253,5 +253,6 @@ public class Monster
     public List<string> GetConditions() => conditions;
     public List<string> GetResistances() => resistances;
     public List<string> GetImmunities() => immunities;
+    public (int, int) GetMonsterLocation() => monsterLocation;
     // Additional methods for monster actions can be added as needed
 }
