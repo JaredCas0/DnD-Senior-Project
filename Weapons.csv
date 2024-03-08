@@ -1,0 +1,48 @@
+Name,Rarity,Type,Range,Damage,Damage Type,Extra Damage,Extra Damage Type,Properties
+Battleaxe,none,martial weapon,melee,1d8,slashing,-,-,versatile
+Dragon Slayer Greatsword,rare,martial weapon,melee,2d6,slashing,3d6,slashing,two-handed
+Dragon Slayer Longsword,rare,martial weapon,melee,1d8,slashing,3d6,slashing,versatile
+Dragon Slayer Rapier,rare,martial weapon,melee,1d8,piercing,3d6,piercing,finesse
+Dragon Slayer Scimitar,rare,martial weapon,melee,1d6,slashing,3d6,slashing,"finesse, light"
+Dragon Slayer Shortsword,rare,martial weapon,melee,1d6,piercing,3d6,piercing,"finesse, light"
+Flail,none,martial weapon,melee,1d8,bludgeoning,-,-,-
+Flame Tongue Greatsword,rare,martial weapon,melee,2d6,slashing,2d6,fire,two-handed
+Flame Tongue Longsword,rare,martial weapon,melee,1d8,slashing,2d6,fire,versatile
+Flame Tongue Rapier,rare,martial weapon,melee,1d8,piercing,2d6,fire,finesse
+Flame Tongue Scimitar,rare,martial weapon,melee,1d6,slashing,2d6,fire,"finesse, light"
+Flame Tongue Shortsword,rare,martial weapon,melee,1d6,piercing,2d6,fire,"finesse, light"
+Frost Brand Greatsword,very rare,martial weapon,melee,2d6,slashing,1d6,cold,two-handed
+Frost Brand Longsword,very rare,martial weapon,melee,1d8,slashing,1d7,cold,versatile
+Frost Brand Rapier,very rare,martial weapon,melee,1d8,piercing,1d8,cold,finesse
+Frost Brand Scimitar,very rare,martial weapon,melee,1d6,slashing,1d9,cold,"finesse, light"
+Frost Brand Shortsword,very rare,martial weapon,melee,1d6,piercing,1d10,cold,"finesse, light"
+Giant Slayer Battleaxe,rare,martial weapon,melee,1d8,slashing,2d6,slashing,versatile
+Giant Slayer Greataxe,rare,martial weapon,melee,1d12,slashing,2d6,slashing,two-handed
+Giant Slayer Greatsword,rare,martial weapon,melee,2d6,slashing,2d6,slashing,two-handed
+Giant Slayer Longsword,rare,martial weapon,melee,1d8,slashing,2d6,slashing,versatile
+Giant Slayer Rapier,rare,martial weapon,melee,1d8,piercing,2d6,piercing,finesse
+Giant Slayer Scimitar,rare,martial weapon,melee,1d6,slashing,2d6,slashing,"finesse, light"
+Giant Slayer Shortsword,rare,martial weapon,melee,1d6,piercing,2d6,piercing,"finesse, light"
+Greataxe,none,martial weapon,melee,1d12,slashing,-,-,"heavy, two-handed"
+Greatsword,none,martial weapon,melee,2d6,slashing,-,-,"heavy, two-handed"
+Lance,none,martial weapon,melee,1d12,piercing,-,-,reach
+Longsword,none,martial weapon,melee,1d8,slashing,-,-,versatile
+Pike,none,martial weapon,melee,1d10,piercing,-,-,"reach, two-handed"
+Rapier,none,martial weapon,melee,1d8,piercing,-,-,finesse
+Scimitar,none,martial weapon,melee,1d6,slashing,-,-,"finesse, light"
+Shortsword,none,martial weapon,melee,1d6,piercing,-,-,"finesse, light"
+Warhammer,none,martial weapon,melee,1d8,bludgeoning,-,-,versatile
+Whip,none,martial weapon,melee,1d4,slashing,-,-,"finesse, reach"
+Hand Crossbow,none,martial weapon,ranged,1d6,piercing,-,-,"ammunition (30/120 ft.), light"
+Heavy Crossbow,none,martial weapon,ranged,1d10,piercing,-,-,"ammunition (100/400 ft.), two-handed"
+Longbow,none,martial weapon,ranged,1d8,piercing,-,-,"ammunition (150/600 ft.), two-handed"
+Club,none,simple weapon,melee,1d4,bludgeoning,-,-,light
+Dagger,none,simple weapon,melee,1d4,piercing,-,-,"finesse, light, thrown (20/60 ft.)"
+Greatclub,none,simple weapon,melee,1d8,bludgeoning,-,-,two-handed
+Handaxe,none,simple weapon,melee,1d6,slashing,-,-,"light, thrown (20/60 ft.)"
+Javelin,none,simple weapon,melee,1d6,piercing,-,-,thrown (30/120 ft.)
+Mace,none,simple weapon,melee,1d6,bludgeoning,-,-,-
+Quarterstaff,none,simple weapon,melee,1d6,bludgeoning,-,-,versatile
+Spear,none,simple weapon,melee,1d6,piercing,-,-,"thrown (20/60 ft.), versatile"
+Light Crossbow,none,simple weapon,ranged,1d8,piercing,-,-,ammunition (80/320 ft.)
+Shortbow,none,simple weapon,ranged,1d6,piercing,-,-,"ammunition (80/320 ft.), two-handed"
