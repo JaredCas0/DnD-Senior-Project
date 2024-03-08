@@ -1,0 +1,8 @@
+Name,Size,Type,AC,HP,Speed,STR,DEX,CON,INT,WIS,CHA,STR Save,DEX Save,CON Save,INT Save,WIS Save,CHA Save,Weaknesses,Resistances,Immunities,CR
+Ghoul,Medium,Undead,12,22,30,13,15,10,7,10,6,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,-,-,"Charmed, Poison, Poisoned",1
+Gray Ooze,Medium,Ooze,8,22,10,12,6,16,1,6,2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,-,"Acid, Cold, Fire","Blinded, Charmed, Frightened, Prone",0.5
+Kobold,Small,Humanoid,12,5,30,7,15,9,8,7,8,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,-,-,-,0.13
+Lich,Medium,Undead,17,135,30,11,16,16,20,14,16,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,-,"Cold, Lightning, Necrotic","Charmed, Frightened, Paralyzed, Poison, Poisoned",21
+Skeleton,Medium,Undead,13,13,30,10,14,15,6,8,5,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,Bludgeoning,-,"Poison, Poisoned",0.25
+Specter,Medium,Undead,12,22,50,1,14,11,10,10,11,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,-,"Acid, Cold, Fire, Lightning. Thunder, Nonmagical","Charmed, Necrotic, Paralyzed, Petrified, Poison, Poisoned, Prone",1
+Zombie,Medium,Undead,8,22,20,13,6,16,3,6,5,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,-,-,"Poison, Poisoned",0.25
