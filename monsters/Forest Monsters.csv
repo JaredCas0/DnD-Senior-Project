@@ -1,0 +1,6 @@
+Name,Size,Type,AC,HP,Speed,STR,DEX,CON,INT,WIS,CHA,STR Save,DEX Save,CON Save,INT Save,WIS Save,CHA Save,Weaknesses,Resistances,Immunities,CR
+Brown Bear,Large,Beast,11,34,40,19,10,16,2,13,7,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,-,-,-,1
+Dire Wolf,Large,Beast,14,37,50,17,15,15,3,12,7,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,-,-,-,1
+Druid,Medium,Humanoid,11,27,30,10,12,13,12,15,11,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,-,-,-,2
+"Giant, Hill",Huge,Giant,13,105,40,21,8,19,5,9,6,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,-,-,-,5
+Lizardfolk,Medium,Humanoid,15,22,30,15,10,13,7,12,7,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,-,-,-,0.5

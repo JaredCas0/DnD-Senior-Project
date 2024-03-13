@@ -1,0 +1,14 @@
+Name,Rarity,Type,AC
+Shield,common,shield,2 + Dex
+Chain Mail,common,heavy armor,16
+Plate Armor,common,heavy armor,18
+Ring Mail,common,heavy armor,14
+Splint Armor,common,heavy armor,17
+Leather Armor,common,light armor,11 + Dex
+Padded Armor,common,light armor,11 + Dex
+Studded Leather Armor,common,light armor,12 + Dex
+Breastplate,common,medium armor,14 + Dex (max 2)
+Chain Shirt,common,medium armor,13 + Dex (max 2)
+Half Plate Armor,common,medium armor,15 + Dex (max 2)
+Hide Armor,common,medium armor,12 + Dex (max 2)
+Scale Mail,common,medium armor,14 + Dex (max 2)

@@ -1,7 +1,0 @@
-Name,Size,Type,AC,HP,Speed,STR,DEX,CON,INT,WIS,CHA,STR Save,DEX Save,CON Save,INT Save,WIS Save,CHA Save,Weaknesses,Resistances,Immunities,CR
-Adult Red Dragon,Huge,Dragon,19,256,80,27,10,25,16,13,21,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,-,-,Fire,17
-Bandit,Medium,Humanoid,12,11,30,11,12,12,10,10,10,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,-,-,-,0.13
-Bandit Captain,Medium,Humanoid,15,65,30,15,16,14,14,11,14,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,-,-,-,2
-Goblin,Small,Humanoid,15,7,30,8,14,10,10,8,8,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,-,-,-,0.25
-Orc,Medium,Humanoid,13,15,30,16,12,16,7,11,10,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,-,-,-,0.5
-Orc War Chief,Medium,Humanoid,16,93,30,18,12,18,11,11,16,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,-,-,-,4
