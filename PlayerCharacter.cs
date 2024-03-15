@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-class PlayerCharacter{
+public class PlayerCharacter{
   private string name;
   private string className; //role
   private string race; // species
