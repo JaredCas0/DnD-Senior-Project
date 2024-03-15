@@ -19,8 +19,8 @@ class PlayerCharacter{
   private int currentHp; //this is the hp that the game will change during combat
   private int armorClass; //this determines if the character gets hit
   private int initiative; //this is used to determine turn order
-  private int maxSpeed; //max player movement
-  private int currentSpeed; //this keeps track of how much movement a player has left for their turn
+  private double maxSpeed; //max player movement
+  private double currentSpeed; //this keeps track of how much movement a player has left for their turn
 
   //The Str, Dex, Con, Int, Wis, and Cha part are
   //short forms of strength, dexterity, constitution, intelligence, wisdom, and charisma
@@ -45,12 +45,12 @@ class PlayerCharacter{
   private List<string> immunities; //what the player takes no damage from
 
   //what actions are available to the player
-  public bool isActionAvailable = true;
-  public bool isBonusActionAvailable = true;
-  public bool isReactionAvailable = true;
+  private bool isActionAvailable = true;
+  private bool isBonusActionAvailable = true;
+  private bool isReactionAvailable = true;
 
 
-  public (int, int) playerLocation;
+  private (double, double) playerLocation;
 
 
 
@@ -63,7 +63,7 @@ class PlayerCharacter{
 
   }
   
-  public void SetStats(int str, int dex, int con, int intel, int wis, int cha, int level, int hp, int ac, int initiative, int speed)
+  public void SetStats(int str, int dex, int con, int intel, int wis, int cha, int level, int hp, int ac, int initiative, double speed)
   {
     strength = str;
     dexterity = dex;
@@ -156,14 +156,14 @@ class PlayerCharacter{
   }
  } 
 
-  public void SetPlayerLocation(int x, int y)
+  public void SetPlayerLocation(double x, double y)
   {
     playerLocation = (x,y);
   }
 
   //when a player moves, they spend currentSpeed
   //can't move if they have 0 speed
-  public void PlayerMove(int distance)
+  public void PlayerMove(double distance)
   {
     if(currentSpeed-distance < 0)
     {
@@ -272,8 +272,8 @@ class PlayerCharacter{
   public int GetMaxHp() => maxHp;
   public int GetLevel() => level;
   public int GetInitiative() => initiative;
-  public int GetMaxSpeed() => maxSpeed;
-  public int GetCurrentSpeed() => currentSpeed;
+  public double GetMaxSpeed() => maxSpeed;
+  public double GetCurrentSpeed() => currentSpeed;
   
   public bool GetHasStrSaveProficiency() => hasStrSaveProficiency;
   public bool GetHasDexSaveProficiency() => hasDexSaveProficiency;
@@ -299,6 +299,6 @@ class PlayerCharacter{
   public bool GetIsBonusActionAvailable() => isBonusActionAvailable;
   public bool GetIsReactionAvailable() => isReactionAvailable;
 
-  public (int, int) GetPlayerLocation() => playerLocation;
+  public (double, double) GetPlayerLocation() => playerLocation;
 
 }
