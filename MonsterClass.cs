@@ -3,61 +3,68 @@ using System.Collections.Generic;
 public class Monster
 {
     // Monster information
-    public string name { get; }
-    public string MonsterType { get; }
+    private string name { get; }
+    private string monsterType { get; }
+
+    private string monsterSize;
+    private double challengeRating;
 
     // Monster stats
-    public int strength { get; }
-    public int dexterity { get; }
-    public int constitution { get; }
-    public int intelligence { get; }
-    public int wisdom { get;  }
-    public int charisma { get;  }
+    private int strength { get; }
+    private int dexterity { get; }
+    private int constitution { get; }
+    private int intelligence { get; }
+    private int wisdom { get;  }
+    private int charisma { get;  }
     // HP
-    public int maxHp { get;  }
-    public int currentHp;
-    public int armorClass { get; }
+    private int maxHp { get;  }
+    private int currentHp;
+    private int armorClass { get; }
     // Initiative & Movement
-    public int initiative { get; }
-    public int maxSpeed { get; }
-    public int currentSpeed;
+    private int initiative { get; }
+    private double maxSpeed { get; }
+    private double currentSpeed;
 
     // Saves
-    public bool hasStrSaveProficiency { get; }
-    public bool hasDexSaveProficiency { get; }
-    public bool hasConSaveProficiency { get; }
-    public bool hasIntSaveProficiency { get; }
-    public bool hasWisSaveProficiency { get; }
-    public bool hasChaSaveProficiency { get; }
+    private bool hasStrSaveProficiency { get; }
+    private bool hasDexSaveProficiency { get; }
+    private bool hasConSaveProficiency { get; }
+    private bool hasIntSaveProficiency { get; }
+    private bool hasWisSaveProficiency { get; }
+    private bool hasChaSaveProficiency { get; }
 
-    public int proficiencyBonus { get; }
+    private int proficiencyBonus { get; }
 
     // Spells, attacks, abilities
-    public List<string> spells { get; }
-    public List<string> attacks { get; }
-    public List<string> abilities { get; }
+    private List<string> spells { get; }
+    private List<string> attacks { get; }
+    private List<string> abilities { get; }
 
     // Conditions and resistances
-    public List<string> conditions;
-    public List<string> resistances;
-    public List<string> immunities;
+    private List<string> conditions;
+    private List<string> resistances;
+    private List<string> immunities;
+    private List<string> weaknesses;
 
     //used to keep track of the monsters location
-    (int, int) monsterLocation;
+    private (double, double) monsterLocation;
 
-    public bool isActionAvailable = true;
-    public bool isBonusActionAvailable = true;
-    public bool isReactionAvailable = true;
+    private bool isActionAvailable = true;
+    private bool isBonusActionAvailable = true;
+    private bool isReactionAvailable = true;
 
 
     
 
     // Constructor
-    public Monster(string name, string monsterType, int strength, int dexterity, int constitution, int intelligence, int wisdom, int charisma, int maxHp, int armorClass, int initiative, int maxSpeed, bool strSaveProf, bool dexSaveProf, bool conSaveProf, bool intSaveProf, bool wisSaveProf, bool chaSaveProf, int proficiencyBonus, List<string> spells, List<string> attacks, List<string> abilities, List<string> resistances, List<string> immununities)
+    public Monster(string name, string monsterSize, string monsterType, int armorClass, int maxHp, double maxSpeed, int strength, int dexterity, int constitution, int intelligence, int wisdom, int charisma, bool strSaveProf, bool dexSaveProf, bool conSaveProf, bool intSaveProf, bool wisSaveProf, bool chaSaveProf, int initiative, int proficiencyBonus, List<string> spells, List<string> attacks, List<string> abilities, List<string> weaknesses, List<string> resistances, List<string> immununities, double cr)
     {
       this.name = name;
-      this.MonsterType = monsterType;
+      this.monsterSize = monsterSize;
+      this.monsterType = monsterType;
+      this.challengeRating = cr;
 
+      this.armorClass = armorClass;
       this.strength = strength;
       this.dexterity = dexterity;
       this.constitution = constitution;
@@ -72,7 +79,7 @@ public class Monster
       this.initiative = initiative;
 
       this.maxSpeed = maxSpeed;
-      currentHp = maxSpeed;
+      currentSpeed = maxSpeed;
 
       hasStrSaveProficiency = strSaveProf;
       hasDexSaveProficiency = dexSaveProf;
@@ -87,6 +94,7 @@ public class Monster
       this.abilities = abilities;
       this.resistances = resistances;
       this.immunities = immununities;
+      this.weaknesses = weaknesses;
         
     }
 
@@ -137,7 +145,7 @@ public class Monster
     }
    }
 
-  public void SetMonsterLocation(int x, int y)
+  public void SetMonsterLocation(double x, double y)
   {
     monsterLocation = (x,y);
   }
@@ -234,7 +242,7 @@ public class Monster
     public int GetProficiencyBonus() => proficiencyBonus;
 
     public string GetName() => name;
-    public string GetMonsterType() => MonsterType;
+    public string GetMonsterType() => monsterType;
 
 
     public int GetArmorClass() => armorClass;
@@ -242,8 +250,8 @@ public class Monster
     public int GetMaxHp() => maxHp;
     public int GetInitiative() => initiative;
 
-    public int GetMaxSpeed() => maxSpeed;
-    public int GetCurrentSpeed() => currentSpeed;
+    public double GetMaxSpeed() => maxSpeed;
+    public double GetCurrentSpeed() => currentSpeed;
 
    public List<string> GetSpells() => spells;
    public List<string> GetAttacks() => attacks;
@@ -253,6 +261,7 @@ public class Monster
     public List<string> GetConditions() => conditions;
     public List<string> GetResistances() => resistances;
     public List<string> GetImmunities() => immunities;
-    public (int, int) GetMonsterLocation() => monsterLocation;
+    public List<string> GetWeaknesses() => weaknesses;
+    public (double, double) GetMonsterLocation() => monsterLocation;
     // Additional methods for monster actions can be added as needed
 }
