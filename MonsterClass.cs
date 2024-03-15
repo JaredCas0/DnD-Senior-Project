@@ -79,7 +79,7 @@ public class Monster
       this.initiative = initiative;
 
       this.maxSpeed = maxSpeed;
-      currentHp = maxSpeed;
+      currentSpeed = maxSpeed;
 
       hasStrSaveProficiency = strSaveProf;
       hasDexSaveProficiency = dexSaveProf;
