@@ -54,7 +54,7 @@ public class PlayerCharacter{
 
 
 
-  public void setStartInput(string name, string race, string subrace, string className,  string background)
+  public void setStartInput(string name, string race, string className,  string background)
   {
     this.name = name;
     this.race = race;
